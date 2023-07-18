@@ -1,0 +1,27 @@
+{
+  "name": "webtoon_userscripts",
+  "version": "0.1.0",
+  "description": "A collection of userscripts for webtoons/manhwa scanlation websites",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint src/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Astropilot/arrowkey_prevnext_chapter.git"
+  },
+  "author": "Astropilot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Astropilot/arrowkey_prevnext_chapter/issues"
+  },
+  "homepage": "https://github.com/Astropilot/arrowkey_prevnext_chapter#readme",
+  "devDependencies": {
+    "@eslint/js": "^8.45.0",
+    "eslint": "^8.45.0",
+    "eslint-plugin-userscripts": "^0.4.0",
+    "globals": "^13.20.0",
+    "psl": "^1.9.0"
+  }
+}
