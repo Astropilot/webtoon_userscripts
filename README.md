@@ -11,8 +11,8 @@ This is a collection of userscripts dedicated to webtoons/manhwa scanning websit
 
 2. Get information or install:
     * Install a script directly from GitHub by clicking on the "install" link in the table below.
-    * Install a script from [GreasyFork](https://greasyfork.org/en/users/24847-mottie) (GF) from the userscript site page
-    * Or, install the scripts from [OpenUserJS](https://openuserjs.org/users/Mottie/scripts) (OU).<br><br>
+    * Install a script from [GreasyFork](https://greasyfork.org/en/users/1130203-astropilot) (GF) from the userscript site page
+    * Or, install the scripts from [OpenUserJS](https://openuserjs.org/users/Astropilot/scripts) (OU).<br><br>
 
 | Userscript                    |                           Description                           | Manga websites impacted                                                                                       |   Direct<br>Install  |             Sites             |    Added   |   Updated  |
 |-------------------------------|:---------------------------------------------------------------:|---------------------------------------------------------------------------------------------------------------|:--------------------:|:-----------------------------:|:----------:|:----------:|
@@ -22,11 +22,11 @@ This is a collection of userscripts dedicated to webtoons/manhwa scanning websit
 [arrow-raw]: https://raw.githubusercontent.com/Astropilot/webtoon_userscripts/main/src/arrow_keys.user.js
 [radio-raw]: https://raw.githubusercontent.com/Astropilot/webtoon_userscripts/main/src/no_radio.user.js
 
-[arrow-gf]: https://greasyfork.org/en/scripts/TODO
-[radio-gf]: https://greasyfork.org/en/scripts/TODO
+[arrow-gf]: https://greasyfork.org/en/scripts/471156-arrow-keys-next-prev-chapter
+[radio-gf]: https://greasyfork.org/en/scripts/471157-no-radio
 
-[arrow-ou]: https://openuserjs.org/scripts/TODO
-[radio-ou]: https://openuserjs.org/scripts/TODO
+[arrow-ou]: https://openuserjs.org/scripts/Astropilot/Arrow_Keys_NextPrev_Chapter
+[radio-ou]: https://openuserjs.org/scripts/Astropilot/No_radio
 
 ## Updating
 
