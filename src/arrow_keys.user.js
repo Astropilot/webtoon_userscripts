@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Arrow Keys: Next/Prev Chapter
 // @namespace    https://github.com/Astropilot
-// @version      0.1.0
+// @version      0.2.0
 // @description  Arrow Key Keyboard shortcuts for multiple manga reader websites (next/prev chapter)
 // @author       Astropilot
 // @license      MIT
@@ -14,6 +14,7 @@
 // @noframes
 // @match        *://*.asurascans.com/*-chapter-*
 // @match        *://*.asura.gg/*-chapter-*
+// @match        *://*.asuracomics.com/*-chapter-*
 // @match        *://*.manga-scans.com/chapter/*
 // @match        *://*.reaperscans.com/comics/*/chapters/*
 // @match        *://*.webtoons.com/*/viewer*episode_no=*
@@ -30,7 +31,7 @@
   // Selectors should point to link (<a href/>) or <button> that redirect to prev/next chapter.
   const navigationSelectorsPerDomains = [
     {
-      hosts: ["asurascans.com", "asura.gg", "xcalibrscans.com"],
+      hosts: ["asurascans.com", "asura.gg", "asuracomics.com", "xcalibrscans.com"],
       selectors: {
         prev: "a.ch-prev-btn",
         next: "a.ch-next-btn"

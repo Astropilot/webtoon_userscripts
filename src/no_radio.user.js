@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         No radio
 // @namespace    https://github.com/Astropilot
-// @version      0.1.0
+// @version      0.2.0
 // @description  Remove annoying radio widget for multiple manga reader websites
 // @author       Astropilot
 // @license      MIT
@@ -14,6 +14,7 @@
 // @noframes
 // @match        *://*.reaperscans.com/*
 // @match        *://*.void-scans.com/*
+// @match        *://*.anigliscans.com/*
 // ==/UserScript==
 
 (function () {
