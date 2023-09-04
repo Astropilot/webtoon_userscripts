@@ -16,8 +16,8 @@ This is a collection of userscripts dedicated to webtoons/manhwa scanning websit
 
 | Userscript                    |                           Description                           | Manga websites impacted                                                                                       |   Direct<br>Install  |             Sites             |    Added   |   Updated  |
 |-------------------------------|:---------------------------------------------------------------:|---------------------------------------------------------------------------------------------------------------|:--------------------:|:-----------------------------:|:----------:|:----------:|
-| Arrow Keys: Next/Prev Chapter | Arrow Key Keyboard shortcuts for multiple manga reader websites | • asurascans<br>• manga-scans<br>• reaperscans<br>• webtoons<br>• xcalibrscans<br>• mangakakalot/manganato<br>• scyllascans | [install][arrow-raw] | [GF][arrow-gf] [OU][arrow-ou] | 2023.07.19 | 2023.07.19 |
-| No radio                      | Remove annoying radio widget for multiple manga reader websites | • reaperscans<br>• void-scans                                                                                     | [install][radio-raw] | [GF][radio-gf] [OU][radio-ou] | 2023.07.19 | 2023.07.19 |
+| Arrow Keys: Next/Prev Chapter | Arrow Key Keyboard shortcuts for multiple manga reader websites | • asurascans<br>• manga-scans<br>• reaperscans<br>• webtoons<br>• xcalibrscans<br>• mangakakalot/manganato<br>• scyllascans | [install][arrow-raw] | [GF][arrow-gf] [OU][arrow-ou] | 2023.07.19 | 2023.09.04 |
+| No radio                      | Remove annoying radio widget for multiple manga reader websites | • reaperscans<br>• void-scans                                                                                     | [install][radio-raw] | [GF][radio-gf] [OU][radio-ou] | 2023.07.19 | 2023.09.04 |
 
 [arrow-raw]: https://raw.githubusercontent.com/Astropilot/webtoon_userscripts/main/src/arrow_keys.user.js
 [radio-raw]: https://raw.githubusercontent.com/Astropilot/webtoon_userscripts/main/src/no_radio.user.js
