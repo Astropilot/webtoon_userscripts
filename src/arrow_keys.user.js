@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Arrow Keys: Next/Prev Chapter
 // @namespace    https://github.com/Astropilot
-// @version      0.4.0
+// @version      0.5.0
 // @description  Arrow Key Keyboard shortcuts for multiple manga reader websites (next/prev chapter)
 // @author       Astropilot
 // @license      MIT
@@ -12,7 +12,7 @@
 // @run-at       document-end
 // @grant        none
 // @noframes
-// @match        *://*.asuratoon.com/*-chapter-*
+// @match        *://*.asuracomic.net/series/*/chapter/*
 // @match        *://*.manga-scans.com/chapter/*
 // @match        *://*.reaperscans.com/comics/*/chapters/*
 // @match        *://*.webtoons.com/*/viewer*episode_no=*
@@ -20,6 +20,7 @@
 // @match        *://*.mangakakalot.com/chapter/*
 // @match        *://*.chapmanganato.to/manga-*/chapter-*
 // @match        *://*.scyllacomics.xyz/manga/*/*
+// @match        *://*.mangagalaxy.org/series/*/chapter-*
 // @require      https://cdn.jsdelivr.net/npm/psl@1.9.0/dist/psl.min.js#sha256-pGXYc481WIYNZUsKubKxCxQUydhNrlM5S8g5eMU8fdw=
 // ==/UserScript==
 
@@ -29,7 +30,7 @@
   // Selectors should point to link (<a href/>) or <button> that redirect to prev/next chapter.
   const navigationSelectorsPerDomains = [
     {
-      hosts: ["asuratoon.com", "xcalibrscans.com"],
+      hosts: ["xcalibrscans.com"],
       selectors: {
         prev: "a.ch-prev-btn",
         next: "a.ch-next-btn"
@@ -76,7 +77,21 @@
         prev: "main > section > div.relative > div.flex > div.grid > a:nth-of-type(1)",
         next: "main > section > div.relative > div.flex > div.grid > a:nth-of-type(2)"
       }
-    }
+    },
+    {
+      hosts: ["asuracomic.net"],
+      selectors: {
+        prev: "div.flex.items-center.self-end.gap-x-3 > a:nth-child(1)",
+        next: "div.flex.items-center.self-end.gap-x-3 > a:nth-child(2)"
+      }
+    },
+    {
+      hosts: ["mangagalaxy.org"],
+      selectors: {
+        prev: "a[aria-label='Prev']",
+        next: "a[aria-label='Next']"
+      }
+    },
   ];
 
   // We extract top domain from hostname without subdomains
