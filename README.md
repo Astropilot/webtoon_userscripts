@@ -16,7 +16,7 @@ This is a collection of userscripts dedicated to webtoons/manhwa scanning websit
 
 | Userscript                    |                           Description                           | Manga websites impacted                                                                                       |   Direct<br>Install  |             Sites             |    Added   |   Updated  |
 |-------------------------------|:---------------------------------------------------------------:|---------------------------------------------------------------------------------------------------------------|:--------------------:|:-----------------------------:|:----------:|:----------:|
-| Arrow Keys: Next/Prev Chapter | Arrow Key Keyboard shortcuts for multiple manga reader websites | • asurascans<br>• manga-scans<br>• reaperscans<br>• webtoons<br>• xcalibrscans<br>• mangakakalot/manganato<br>• scyllacomics<br>• mangagalaxy | [install][arrow-raw] | [GF][arrow-gf] [OU][arrow-ou] | 2023.07.19 | 2024.07.28 |
+| Arrow Keys: Next/Prev Chapter | Arrow Key Keyboard shortcuts for multiple manga reader websites | • manga-scans<br>• reaperscans<br>• webtoons<br>• xcalibrscans<br>• mangakakalot/manganato<br>• scyllacomics<br>• mangagalaxy | [install][arrow-raw] | [GF][arrow-gf] [OU][arrow-ou] | 2023.07.19 | 2024.08.27 |
 | No radio                      | Remove annoying radio widget for multiple manga reader websites | • hivescans<br>• anigliscans                                                                                     | [install][radio-raw] | [GF][radio-gf] [OU][radio-ou] | 2023.07.19 | 2024.06.04 |
 
 [arrow-raw]: https://raw.githubusercontent.com/Astropilot/webtoon_userscripts/main/src/arrow_keys.user.js

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Arrow Keys: Next/Prev Chapter
 // @namespace    https://github.com/Astropilot
-// @version      0.5.0
+// @version      0.6.0
 // @description  Arrow Key Keyboard shortcuts for multiple manga reader websites (next/prev chapter)
 // @author       Astropilot
 // @license      MIT
@@ -12,7 +12,6 @@
 // @run-at       document-end
 // @grant        none
 // @noframes
-// @match        *://*.asuracomic.net/series/*/chapter/*
 // @match        *://*.manga-scans.com/chapter/*
 // @match        *://*.reaperscans.com/comics/*/chapters/*
 // @match        *://*.webtoons.com/*/viewer*episode_no=*
@@ -76,13 +75,6 @@
       selectors: {
         prev: "main > section > div.relative > div.flex > div.grid > a:nth-of-type(1)",
         next: "main > section > div.relative > div.flex > div.grid > a:nth-of-type(2)"
-      }
-    },
-    {
-      hosts: ["asuracomic.net"],
-      selectors: {
-        prev: "div.flex.items-center.self-end.gap-x-3 > a:nth-child(1)",
-        next: "div.flex.items-center.self-end.gap-x-3 > a:nth-child(2)"
       }
     },
     {
